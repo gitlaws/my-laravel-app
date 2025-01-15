@@ -1,0 +1,22 @@
+{
+  "name": "my-laravel-app",
+  "version": "1.0.0",
+  "description": "A Laravel application with SCSS stylesheets.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "laravel-mix": "^6.0.0",
+    "sass": "^1.32.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0"
+  },
+  "license": "MIT"
+}
